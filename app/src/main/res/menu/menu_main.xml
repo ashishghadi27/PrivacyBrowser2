@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.asg.ashish.privacybrowser.MainActivity"
+    tools:ignore="ExtraText">
+
+
+
+        <item
+                android:id="@+id/reload"
+                android:orderInCategory="0"
+                android:title="@string/reload"
+                android:visible="true"
+                />
+
+        <item
+            android:id="@+id/forward"
+            android:orderInCategory="1"
+            android:title="@string/forward"
+            android:visible="true"
+            />
+
+        <item
+            android:id="@+id/menuhomepage"
+            android:orderInCategory="2"
+            android:title="@string/menuhome"
+            android:visible="true"
+            />
+
+        <item
+            android:id="@+id/share"
+            android:orderInCategory="3"
+            android:title="@string/share"
+            android:visible="true"
+            app:actionProviderClass="android.widget.ShareActionProvider"
+            />
+
+
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="5"
+            android:title="@string/action_settings"
+            android:visible="true"
+
+            />
+
+
+
+
+
+</menu>
